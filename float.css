@@ -1,0 +1,46 @@
+.head {
+    font-family: 'Myriad Pro';
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+.section {
+    border: 4px solid black;
+    background-color: #22B573;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    padding: 40px;
+    padding-top: 50px;
+}
+.arrow {
+    width: 200px;
+    height: 150px;
+    float: right;
+}
+.nav{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Myriad Pro';
+    margin-left: 20px;
+    display: inline-block;
+}
+.ltsd {
+    background-color: #FCEE21;
+    width: 40%;
+    padding: 23px;
+    font-family: 'Myriad Pro';
+    display: inline-block;
+    margin-left: 40px;
+}
+.rt {
+    padding-left: 33px;
+    padding-bottom: 33px;
+    float: right;
+    display: block;
+    margin-right: 19px;
+}
+.nav li{
+	display: :inline-block;
+}
