@@ -1,13 +1,13 @@
 .head {
     font-family: 'Myriad Pro';
     font-size: 18px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding: 2px;
     text-align: center;
 }
 .section {
-    border: 4px solid black;
+    border: 90% ;solid:black;
     background-color: #22B573;
+   	margin: 40px;
     margin-left: 40px;
     margin-bottom: 40px;
     margin-right: 40px;
@@ -15,8 +15,8 @@
     padding-top: 50px;
 }
 .arrow {
-    width: 200px;
-    height: 150px;
+    width: 100px;
+    height: 50px;
     float: right;
 }
 .nav{
@@ -24,15 +24,15 @@
     text-transform: uppercase;
     font-family: 'Myriad Pro';
     margin-left: 20px;
-    display: inline-block;
 }
-.ltsd {
+.ltisd {
     background-color: #FCEE21;
     width: 40%;
     padding: 23px;
     font-family: 'Myriad Pro';
     display: inline-block;
     margin-left: 40px;
+    float: left;
 }
 .rt {
     padding-left: 33px;
@@ -41,6 +41,13 @@
     display: block;
     margin-right: 19px;
 }
-.nav li{
-	display: :inline-block;
+  .nav li{
+	display:inline-block;
+	padding-right: 70px;
+	width: 40px;
+}
+.clear:after{
+	content:'';
+	clear: both;
+	display: block;
 }
